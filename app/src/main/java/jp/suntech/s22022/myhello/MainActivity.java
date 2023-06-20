@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 //入力された名前文字列を取得
                 String inputStr = input.getText().toString();
                 //メッセージを表示
-                output.setText(inputStr + "さん、こんにちは！");
+                output.setText(inputStr + "さん、ごきげんよう");
             }else if(id==R.id.btClear){
                 //名前入力欄を空文字に設定
                 input.setText("");
